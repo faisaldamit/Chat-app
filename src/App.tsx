@@ -1,35 +1,21 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import "./App.css";
+import { faThumbTack } from "@fortawesome/free-solid-svg-icons";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
+    <div className=" w-full h-dvh ">
+      <nav className="w-1/3 h-dvh box-border bg-gray-700/10 z-999 ">
+        <div>i</div>
 
-export default App
+        <div className="rounded flex rounded-full justify-between bg-red-100">
+          <div className="flex-none w-15 rounded-full p-2">Pinned messages</div>
+          <div className="flex-none  ">
+            <FontAwesomeIcon icon={faThumbTack} className="w-10 mt-3 " />
+          </div>
+        </div>
+      </nav>
+    </div>
+  );
+}
+export default App;
