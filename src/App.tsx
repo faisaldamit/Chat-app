@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./App.css";
-import profilePictureDefault from "../public/UI/images/profile-picture.webp";
-
+import profilePictureDefault  from "../public/UI/images/profile-picture.webp";
+import wallpaper from "../public/UI/images/ch.webp"
 import {
   faThumbTack,
   faMagnifyingGlass,
@@ -14,12 +14,12 @@ import {
 
 function App() {
   return (
-    <div className=" w-full h-full p-2 grid grid-cols-4 gap-4 max-[850]:grid-cols-3 max-[850]:grid ">
+    <div className="bg-[#faf9fe] w-full h-full p-2 grid grid-cols-4 gap-4 max-[850]:grid-cols-3 max-[850]:grid ">
       <div
         className="col-span-1 w-full rounded-2xl 
-          box-border bg-gray-700/10 z-999"
+          box-border bg-[#ffffff] z-999"
       >
-        <div className="flex last:ml-auto rounded-t-2xl border-4 border-b-slate-950 ">
+        <div className="flex last:ml-auto rounded-t-2xl border-2 border-b-slate-950 ">
           <div className="grid place-items-center w-1/6 m-2 max-[740px]:w-1/5 ">
             <img
               src={profilePictureDefault}
@@ -49,7 +49,7 @@ function App() {
           </div>
         </div>
 
-        <div className="rounded-2xl bg-red-100 gap-1 ">
+        <div className="rounded-2xl bg-[#ffffff] gap-1 ">
           <div className=" flex  justify-between ">
             <div className="flex-none w-15 rounded-full p-2">
               Pinned messages
@@ -99,6 +99,9 @@ function App() {
               </a>
             </div>
           </button>
+          <div className="flex-none w-15 rounded-full p-2">
+              Messages
+            </div>
           <button
             className=" flex max-[600px]:justify-between hover:bg-slate-50 active:bg-slate-50 focus:outline-none 
                           focus:ring focus:ring-slate-50 cursor-pointer"
@@ -212,12 +215,17 @@ function App() {
             </button>
           </div>
         </div>
-
+        <div 
+      className="bg-gray-800 w-full h-full bg-repeat opacity-20"
+      style={{ backgroundImage: `url(${wallpaper})` }}
+    >
+          
+        </div>
         <div className="flex justify-start border-4 border-t-slate-950 rounded-b-2xl bg-slate-200">
           <div className="grid place-items-center">
             <button
               type="button"
-              className="bg-gray-800/10 rounded relative
+              className="bg-gray-800/10 rounded-full relative
                           h-12 w-12 m-3 mr-1 hover:bg-slate-50 active:bg-slate-50 focus:outline-none 
                           focus:ring focus:ring-slate-50"
             >
@@ -227,18 +235,18 @@ function App() {
           <div className="grid place-items-center">
             <button
               type="button"
-              className="bg-gray-800/10 rounded relative
+              className="bg-gray-800/10 rounded-full relative
                           h-12 w-12 m-3 ml-1 hover:bg-slate-50 active:bg-slate-50 focus:outline-none 
                           focus:ring focus:ring-slate-50"
             >
               <FontAwesomeIcon icon={faPaperclip} />
             </button>
           </div>
-          <div className="grid place-items-start mt-4 w-full ml-0 h-full">
+          <div className="grid place-items-center w-full ml-0 h-full">
             <input
               type="text"
-              placeholder="Type a message"
-              className="bg-gray-700 w-5/6 text-gray-200 rounded-xl px-4 py-2 pl-auto flex-grow focus:outline-none focus:ring-2 focus:ring-blue-500 resize-none overflow-hidden min-h-[44px] max-h-[200px]"
+              placeholder ="Type a message"
+              className="bg-[#f7f7f7] w-full text-gray-200 rounded-xl px-4 py-2 pl-auto flex-grow focus:outline-none focus:ring-2 focus:ring-blue-500 resize-none overflow-hidden min-h-[44px] max-h-[200px]"
             />
           </div>
           <div className="w-auto m-auto ml-0">
@@ -247,7 +255,7 @@ function App() {
           <div className="grid place-items-center">
             <button
               type="button"
-              className="bg-gray-800/10 rounded relative
+              className="bg-gray-800/10 rounded-full relative
                           h-12 w-12 m-3 mr-0 hover:bg-slate-50 active:bg-slate-50 focus:outline-none 
                           focus:ring focus:ring-slate-50"
             >
@@ -257,7 +265,7 @@ function App() {
           <div className="grid place-items-center">
             <button
               type="button"
-              className="bg-gray-800/10 rounded relative
+              className="bg-[#3772ec] rounded-full relative
                           h-12 w-12 m-3 ml-1 hover:bg-slate-50 active:bg-slate-50 focus:outline-none 
                           focus:ring focus:ring-slate-50"
             >
