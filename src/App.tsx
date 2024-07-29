@@ -246,7 +246,7 @@ function App() {
             <input
               type="text"
               placeholder ="Type a message"
-              className="bg-[#f7f7f7] w-full text-gray-200 rounded-xl px-4 py-2 pl-auto flex-grow focus:outline-none focus:ring-2 focus:ring-blue-500 resize-none overflow-hidden min-h-[44px] max-h-[200px]"
+              className="bg-[#f7f7f7] w-full text-slate-900 rounded-xl px-4 py-2 pl-auto flex-grow focus:outline-none focus:ring-2 focus:ring-blue-500 resize-none overflow-hidden min-h-[44px] max-h-[200px]"
             />
           </div>
           <div className="w-auto m-auto ml-0">
