@@ -8,7 +8,6 @@ import {
   faMicrophone,
   faBars,
   faPaperclip,
-  faFaceSmile,
   faPaperPlane,
 } from "@fortawesome/free-solid-svg-icons";
 
