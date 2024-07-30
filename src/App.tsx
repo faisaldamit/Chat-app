@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./App.css";
-import profilePictureDefault  from "../public/UI/images/profile-picture.webp";
-import wallpaper from "../public/UI/images/ch.webp"
+import profilePictureDefault from "../public/UI/images/profile-picture.webp";
+import wallpaper from "../public/UI/images/ch.webp";
 import {
   faThumbTack,
   faMagnifyingGlass,
@@ -19,7 +19,7 @@ function App() {
         className="col-span-1 w-full rounded-2xl 
           box-border bg-[#ffffff] z-999"
       >
-        <div className="flex last:ml-auto rounded-t-2xl border-2 border-b-slate-950 ">
+        <div className="flex last:ml-auto rounded-t-2xl  ">
           <div className="grid place-items-center w-1/6 m-2 max-[740px]:w-1/5 ">
             <img
               src={profilePictureDefault}
@@ -27,7 +27,7 @@ function App() {
               alt="profile"
             />
           </div>
-          <div className="w-4/5 p-4 max-[900px]:w-1/2 pt-6  ">
+          <div className="w-auto mr-auto p-4 max-[900px]:w-1/2 pt-6  ">
             <p className="text-sm font-semibold ">Eric Ten Hag</p>
             <a href="">
               <p className="text-sm">Info account</p>
@@ -48,7 +48,18 @@ function App() {
             </button>
           </div>
         </div>
-
+          <div className=" rounded-full m-auto w-11/12 bg-[#f7f7f7] flex justify-around">
+            <button type="button" className="py-2 px-5 rounded-full bg-[f7f7f7] hover:bg-white active:bg-white">
+              All
+            </button>
+            <button type="button" className="py-2 px-5 rounded-full bg-[f7f7f7] hover:bg-white active:bg-white">
+              Personal
+            </button>
+            <button type="button" className="py-2 px-5 rounded-full bg-[f7f7f7] hover:bg-white active:bg-white">
+              Groups
+            </button>
+            
+          </div>
         <div className="rounded-2xl bg-[#ffffff] gap-1 ">
           <div className=" flex  justify-between ">
             <div className="flex-none w-15 rounded-full p-2">
@@ -99,9 +110,7 @@ function App() {
               </a>
             </div>
           </button>
-          <div className="flex-none w-15 rounded-full p-2">
-              Messages
-            </div>
+          <div className="flex-none w-15 rounded-full p-2">Messages</div>
           <button
             className=" flex max-[600px]:justify-between hover:bg-slate-50 active:bg-slate-50 focus:outline-none 
                           focus:ring focus:ring-slate-50 cursor-pointer"
@@ -186,12 +195,12 @@ function App() {
           </button>
         </div>
       </div>
-      <div className=" col-span-3 flex flex-col justify-between bg-green-200 rounded-2xl z-999 ">
-        <div className="flex flex-row justify-start last:ml-auto border-4 border-b-slate-950 rounded-t-2xl bg-slate-200">
-          <div className="grid place-items-center w-20 ml-4 h-full">
+      <div className=" col-span-3 flex flex-col justify-between bg-[#fcfdff] rounded-2xl z-999 ">
+        <div className="flex flex-row justify-start last:ml-auto border border-b-slate-600 rounded-t-2xl bg-[#ffffff]">
+          <div className="grid place-items-center w-20 ml-4 m-3">
             <img
               src={profilePictureDefault}
-              className="  rounded-full w-full h-full "
+              className=" rounded-full w-full h-full "
               alt="profile"
             />
           </div>
@@ -215,42 +224,27 @@ function App() {
             </button>
           </div>
         </div>
-        <div 
-      className="bg-gray-800 w-full h-full bg-repeat opacity-20"
-      style={{ backgroundImage: `url(${wallpaper})` }}
-    >
-          
-        </div>
-        <div className="flex justify-start border-4 border-t-slate-950 rounded-b-2xl bg-slate-200">
-          <div className="grid place-items-center">
-            <button
-              type="button"
-              className="bg-gray-800/10 rounded-full relative
-                          h-12 w-12 m-3 mr-1 hover:bg-slate-50 active:bg-slate-50 focus:outline-none 
-                          focus:ring focus:ring-slate-50"
-            >
-              <FontAwesomeIcon icon={faFaceSmile} />
-            </button>
-          </div>
-          <div className="grid place-items-center">
-            <button
-              type="button"
-              className="bg-gray-800/10 rounded-full relative
-                          h-12 w-12 m-3 ml-1 hover:bg-slate-50 active:bg-slate-50 focus:outline-none 
-                          focus:ring focus:ring-slate-50"
-            >
-              <FontAwesomeIcon icon={faPaperclip} />
-            </button>
-          </div>
-          <div className="grid place-items-center w-full ml-0 h-full">
+        <div
+          className="bg-gray-800 w-full h-full bg-repeat opacity-20"
+          style={{ backgroundImage: `url(${wallpaper})` }}
+        ></div>
+        <div className="flex justify-start py-2 pl-4 border border-t-slate-600 rounded-b-2xl bg-[#ffffff]">
+          <div className="flex  w-full  ml-0 h-full rounded-full relative bg-[#ffffff]   ">
+            <div className="grid place-items-center rounded-l-full pl-3 bg-[#f7f7f7] ">
+              <button
+                type="button"
+                className="bg-gray-800/10 rounded-full
+                          h-10 w-10 ml-1 hover:bg-slate-50 active:bg-slate-50 focus:outline-none 
+                          focus:ring focus:ring-slate-50 "
+              >
+                <FontAwesomeIcon icon={faPaperclip} />
+              </button>
+            </div>
             <input
               type="text"
-              placeholder ="Type a message"
-              className="bg-[#f7f7f7] w-full text-slate-900 rounded-xl px-4 py-2 pl-auto flex-grow focus:outline-none focus:ring-2 focus:ring-blue-500 resize-none overflow-hidden min-h-[44px] max-h-[200px]"
+              placeholder="Type a message"
+              className="w-full text-slate-900 bg-[#f7f7f7]  rounded-r-full p-2 pl-auto flex-grow focus:outline-none resize-none overflow-hidden min-h-[44px] max-h-[200px]"
             />
-          </div>
-          <div className="w-auto m-auto ml-0">
-            <form action="text" className=""></form>
           </div>
           <div className="grid place-items-center">
             <button
