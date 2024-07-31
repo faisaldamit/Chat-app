@@ -73,7 +73,7 @@ function App() {
               Pinned messages
             </div>
             <div className="flex-none  ">
-              <FontAwesomeIcon icon={faThumbTack} className="w-10 mt-3" />
+              <FontAwesomeIcon icon={faThumbTack} className="w-10 mt-3 mr-4" />
             </div>
           </div>
 
