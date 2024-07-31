@@ -97,10 +97,12 @@ function App() {
               </a>
             </div>
             <div className="w-1/4 m-auto mr-3 flex flex-row ">
-            <FontAwesomeIcon icon={faThumbTack} className="text-xs/10 text-[#929292] m-auto mr-2 "></FontAwesomeIcon>
+              <FontAwesomeIcon
+                icon={faThumbTack}
+                className="text-xs/10 text-[#929292] m-auto mr-2 "
+              ></FontAwesomeIcon>
               <p className=" font-semibold text-[#929292] text-xs/10">
-                
-                 00:00AM
+                00:00AM
               </p>
             </div>
           </button>
@@ -124,10 +126,12 @@ function App() {
               </a>
             </div>
             <div className="w-1/4 m-auto mr-3 flex flex-row ">
-            <FontAwesomeIcon icon={faThumbTack} className="text-xs/10 text-[#929292] m-auto mr-2 "></FontAwesomeIcon>
+              <FontAwesomeIcon
+                icon={faThumbTack}
+                className="text-xs/10 text-[#929292] m-auto mr-2 "
+              ></FontAwesomeIcon>
               <p className=" font-semibold text-[#929292] text-xs/10">
-                
-                 00:00AM
+                00:00AM
               </p>
             </div>
           </button>
