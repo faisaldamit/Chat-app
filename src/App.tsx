@@ -253,10 +253,10 @@ function App() {
             />
           </div>
           <div className="w-auto m-auto ml-0">
-            <p className="m-auto ml-4 text-lg font-semibold max[740]:text-xl">
+            <p className="m-auto text-lg font-semibold max[740]:text-xl">
               Eric Ten Hag
             </p>
-            <p className="m-auto ml-6 text-sm ">Eric Ten Hag</p>
+            <p className=" text-sm ">Eric Ten Hag</p>
           </div>
           <div className="grid place-items-center">
             <button
@@ -273,7 +273,7 @@ function App() {
           </div>
         </div>
         <div
-          className="bg-gray-800 w-full h-full bg-repeat opacity-20"
+          className="bg-gray-800 w-full h-full border border-slate-400 bg-repeat opacity-20"
           style={{ backgroundImage: `url(${wallpaper})` }}
         ></div>
         <div className="flex justify-start py-2 pl-4 border border-t-slate-200 rounded-b-2xl bg-[#ffffff]">
