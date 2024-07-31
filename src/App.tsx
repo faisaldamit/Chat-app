@@ -96,9 +96,10 @@ function App() {
                 <p className="text-sm text-[#929292]">Info account</p>
               </a>
             </div>
-            <div className="w-1/4 m-auto mr-3 ">
-              <p className=" w-fit font-semibold text-[#929292] text-xs/10">
-                <FontAwesomeIcon icon={faThumbTack} className="text-xs/10 text-[#929292] mr-3"></FontAwesomeIcon>
+            <div className="w-1/4 m-auto mr-3 flex flex-row ">
+            <FontAwesomeIcon icon={faThumbTack} className="text-xs/10 text-[#929292] m-auto mr-2 "></FontAwesomeIcon>
+              <p className=" font-semibold text-[#929292] text-xs/10">
+                
                  00:00AM
               </p>
             </div>
@@ -122,9 +123,11 @@ function App() {
                 <p className="text-sm text-[#929292]">Info account</p>
               </a>
             </div>
-            <div className="w-1/5 m-auto mr-3 ">
-              <p className=" w-full font-semibold text-[#929292] text-xs">
-                00:00 AM
+            <div className="w-1/4 m-auto mr-3 flex flex-row ">
+            <FontAwesomeIcon icon={faThumbTack} className="text-xs/10 text-[#929292] m-auto mr-2 "></FontAwesomeIcon>
+              <p className=" font-semibold text-[#929292] text-xs/10">
+                
+                 00:00AM
               </p>
             </div>
           </button>
