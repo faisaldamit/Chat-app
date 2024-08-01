@@ -275,7 +275,7 @@ function App() {
             </button>
           </div>
         </div>
-        <div className="w-auto bg-gray-800/5  border border-slate-400 overflow-y-auto h-2/3">
+        <div className="w-auto bg-gray-800/5  border border-slate-400 overflow-y-auto">
           <nav className="grid place-items-center w-full z-999 ">
             <div className=" bg-slate-40 mt-3 rounded-full shadow-black shadow-sm">
               <p className="p-2 text-xs font-semibold text-[rgb(0,0,0)]">
