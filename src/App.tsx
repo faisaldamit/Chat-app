@@ -1,7 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./App.css";
 import profilePictureDefault from "../public/UI/images/profile-picture.webp";
-import wallpaper from "../public/UI/images/ch.webp";
 import {
   faThumbTack,
   faMagnifyingGlass,
