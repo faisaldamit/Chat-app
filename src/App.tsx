@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./App.css";
 import profilePictureDefault from "../public/UI/images/profile-picture.webp";
+import wallpaper from "../public/UI/images/ch.webp";
 import {
   faThumbTack,
   faMagnifyingGlass,
@@ -10,6 +11,7 @@ import {
   faPaperPlane,
   faCircle,
   faCheckDouble,
+  faEllipsisVertical,
 } from "@fortawesome/free-solid-svg-icons";
 
 function App() {
@@ -273,7 +275,7 @@ function App() {
             </button>
           </div>
         </div>
-        <div className="w-auto h-full relative bg-gray-800/5  border border-slate-400">
+        <div className="w-auto bg-gray-800/5  border border-slate-400 overflow-y-auto h-2/3">
           <nav className="grid place-items-center w-full z-999 ">
             <div className=" bg-slate-40 mt-3 rounded-full shadow-black shadow-sm">
               <p className="p-2 text-xs font-semibold text-[rgb(0,0,0)]">
@@ -298,8 +300,8 @@ function App() {
               </p>
             </div>
 
-            <div className="max-w-2xl bg-slate-500 rounded-xl p-3 ml-7">
-              <p className="font-xs font-sans ">
+            <div className="max-w-2xl ml-7 flex">
+              <p className="font-xs font-sans  bg-slate-50 border border-slate-300 rounded-xl p-3">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
                 sit amet lorem iaculis, pulvinar quam nec, consectetur ex. Morbi
                 pharetra, nibh at tincidunt venenatis, nunc sem congue orci, a
@@ -309,6 +311,10 @@ function App() {
                 tincidunt. Sed et ultricies leo. Maecenas tristique odio massa,
                 sit amet placerat sem ultricies sit amet. In ut enim nisl.
               </p>
+              <FontAwesomeIcon
+                icon={faEllipsisVertical}
+                className="text-[#] text-xl m-auto ml-2"
+              ></FontAwesomeIcon>
             </div>
             <div className=" rounded-xl p-3 m-3 mr-auto">
               <div className="flex justify-end">
@@ -317,7 +323,7 @@ function App() {
                   icon={faCircle}
                   className="text-black text-xs mr-0 my-auto "
                 ></FontAwesomeIcon>
-                <p className=" m-auto mx-1 font-semibold text-[#929292] text-xs">
+                <p className=" m-auto mx-3 font-semibold text-[#929292] text-xs">
                   00:00 AM
                 </p>
                 <FontAwesomeIcon
@@ -326,8 +332,12 @@ function App() {
                 ></FontAwesomeIcon>
               </div>
 
-              <div className="max-w-2xl bg-blue-500 rounded-xl p-3 ml-auto">
-                <p className="font-xs font-sans ">
+              <div className="max-w-2xl rounded-xl p-3 ml-auto flex">
+                <FontAwesomeIcon
+                  icon={faEllipsisVertical}
+                  className="text-[#3b3b3bbb] text-xl m-auto mr-2"
+                ></FontAwesomeIcon>
+                <p className="bg-[#3b72ff] p-4 rounded-xl font-xs font-sans text-white">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
                   sit amet lorem iaculis, pulvinar quam nec, consectetur ex.
                   Morbi pharetra, nibh at tincidunt venenatis, nunc sem congue
@@ -339,6 +349,11 @@ function App() {
                   enim nisl.
                 </p>
               </div>
+              <img
+                src={wallpaper}
+                alt="wallpaper"
+                className="rounded-xl ml-auto mr-4 border-4 w-1/2 "
+              />
             </div>
           </div>
         </div>
