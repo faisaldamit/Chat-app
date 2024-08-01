@@ -9,6 +9,8 @@ import {
   faBars,
   faPaperclip,
   faPaperPlane,
+  faCircle,
+  faCheckDouble,
 } from "@fortawesome/free-solid-svg-icons";
 
 function App() {
@@ -272,10 +274,76 @@ function App() {
             </button>
           </div>
         </div>
-        <div
-          className="bg-gray-800 w-full h-full border border-slate-400 bg-repeat opacity-20"
-          style={{ backgroundImage: `url(${wallpaper})` }}
-        ></div>
+        <div className="w-auto h-full relative bg-gray-800/5  border border-slate-400">
+          <nav className="grid place-items-center w-full z-999 ">
+            <div className=" bg-slate-40 mt-3 rounded-full shadow-black shadow-sm">
+              <p className="p-2 text-xs font-semibold text-[rgb(0,0,0)]">
+                Today
+              </p>
+            </div>
+          </nav>
+          <div className=" rounded-xl p-3 m-3 mr-auto">
+            <div className="flex ">
+              <img
+                src={profilePictureDefault}
+                alt="profile"
+                className="rounded-full w-7 h-7"
+              />
+              <p className=" mx-3 text-md font-semibold">Faical Babtayen</p>
+              <FontAwesomeIcon
+                icon={faCircle}
+                className="text-black text-xs my-auto ml-0"
+              ></FontAwesomeIcon>
+              <p className="ml-3 m-auto font-semibold text-[#929292] text-xs">
+                00:00 AM
+              </p>
+            </div>
+
+            <div className="max-w-2xl bg-slate-500 rounded-xl p-3 ml-7">
+              <p className="font-xs font-sans ">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+                sit amet lorem iaculis, pulvinar quam nec, consectetur ex. Morbi
+                pharetra, nibh at tincidunt venenatis, nunc sem congue orci, a
+                sagittis ligula nisi id sem. Nullam tincidunt mauris id ante
+                placerat egestas. Cras eget turpis quis mi blandit mollis.
+                Vestibulum semper lectus id sem posuere, quis semper mauris
+                tincidunt. Sed et ultricies leo. Maecenas tristique odio massa,
+                sit amet placerat sem ultricies sit amet. In ut enim nisl.
+              </p>
+            </div>
+            <div className=" rounded-xl p-3 m-3 mr-auto">
+              <div className="flex justify-end">
+                <p className=" mx-3 text-md font-semibold">You</p>
+                <FontAwesomeIcon
+                  icon={faCircle}
+                  className="text-black text-xs mr-0 my-auto "
+                ></FontAwesomeIcon>
+                <p className=" m-auto mx-1 font-semibold text-[#929292] text-xs">
+                  00:00 AM
+                </p>
+                <FontAwesomeIcon
+                  icon={faCheckDouble}
+                  className="text-blue-500 text-sm mr-0 my-auto"
+                >
+                </FontAwesomeIcon>
+              </div>
+
+              <div className="max-w-2xl bg-blue-500 rounded-xl p-3 ml-auto">
+                <p className="font-xs font-sans ">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+                  sit amet lorem iaculis, pulvinar quam nec, consectetur ex.
+                  Morbi pharetra, nibh at tincidunt venenatis, nunc sem congue
+                  orci, a sagittis ligula nisi id sem. Nullam tincidunt mauris
+                  id ante placerat egestas. Cras eget turpis quis mi blandit
+                  mollis. Vestibulum semper lectus id sem posuere, quis semper
+                  mauris tincidunt. Sed et ultricies leo. Maecenas tristique
+                  odio massa, sit amet placerat sem ultricies sit amet. In ut
+                  enim nisl.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
         <div className="flex justify-start py-2 pl-4 border border-t-slate-200 rounded-b-2xl bg-[#ffffff]">
           <div className="flex  w-full  ml-0 h-full rounded-full relative bg-[#ffffff]   ">
             <div className="grid place-items-center rounded-l-full pl-3 bg-[#f7f7f7] ">
@@ -307,9 +375,9 @@ function App() {
           <div className="grid place-items-center">
             <button
               type="button"
-              className="bg-[#3772ec] rounded-full relative
-                          h-12 w-12 m-3 ml-1 hover:bg-slate-50 active:bg-slate-50 focus:outline-none 
-                          focus:ring focus:ring-slate-50"
+              className="bg-[#2d64fa] rounded-full relative
+                          h-12 w-12 m-3 ml-1 hover:bg-slate-500 active:bg-slate-50/10 focus:outline-none 
+                          focus:ring focus:ring-slate-500"
             >
               <FontAwesomeIcon icon={faPaperPlane} className="text-white" />
             </button>
