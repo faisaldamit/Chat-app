@@ -324,8 +324,7 @@ function App() {
                 <FontAwesomeIcon
                   icon={faCheckDouble}
                   className="text-blue-500 text-sm mr-0 my-auto"
-                >
-                </FontAwesomeIcon>
+                ></FontAwesomeIcon>
               </div>
 
               <div className="max-w-2xl bg-blue-500 rounded-xl p-3 ml-auto">
