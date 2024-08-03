@@ -84,58 +84,66 @@ function App() {
             className=" flex max-[600px]:justify-between hover:bg-slate-50 active:bg-slate-50 focus:outline-none 
                           focus:ring focus:ring-slate-50 cursor-pointer"
           >
-            <div className="grid place-items-center w-1/6 h-full m-auto max-[600px]:w-1/4">
+            <div className="grid place-items-center w-1/6 h-full  m-2 max-[600px]:w-1/4">
               <img
                 src={profilePictureDefault}
                 className=" rounded-full w-full h-full "
                 alt="profile"
               />
             </div>
-            <div className="w-2/3 m-auto p-auto pl-3 py-4 max-[500px]:hidden text-left ">
-              <p className="text-md font-semibold max[740]:text-xl">
-                Eric Ten Hag
-              </p>
-              <a href="">
-                <p className="text-sm text-[#929292]">Info account</p>
-              </a>
-            </div>
-            <div className="w-1/4 m-auto mr-3 flex flex-row ">
-              <FontAwesomeIcon
-                icon={faThumbTack}
-                className="text-xs/10 text-[#929292] m-auto mr-2 "
-              ></FontAwesomeIcon>
-              <p className=" font-semibold text-[#929292] text-xs/10">
-                00:00AM
-              </p>
+            <div className="flex flex-wrap my-auto mt-2 justify-between w-3/4 ">
+              
+                <div className="">
+                  <p className="text-md font-semibold ">
+                  Eric Ten Hag
+                </p>
+                </div>
+
+              <div className="flex flex-row m-auto mr-3">
+                <FontAwesomeIcon
+                  icon={faThumbTack}
+                  className="text-xs/10 text-[#929292] m-auto mr-2 "
+                ></FontAwesomeIcon>
+                <p className=" font-semibold text-[#929292] text-[10px]">
+                  00:00 AM
+                </p>
+              </div>
+              <div className="mt-1 " >
+                <p className="text-xs text-[#929292]">info account</p>
+              </div>
             </div>
           </button>
           <button
             className=" flex max-[600px]:justify-between hover:bg-slate-50 active:bg-slate-50 focus:outline-none 
                           focus:ring focus:ring-slate-50 cursor-pointer"
           >
-            <div className="grid place-items-center w-1/6 h-full m-auto max-[600px]:w-1/4">
+            <div className="grid place-items-center w-1/6 h-full  m-2 max-[600px]:w-1/4">
               <img
                 src={profilePictureDefault}
                 className=" rounded-full w-full h-full "
                 alt="profile"
               />
             </div>
-            <div className="w-2/3 m-auto p-auto pl-3 py-4 max-[500px]:hidden text-left ">
-              <p className="text-md font-semibold max[740]:text-xl">
-                Eric Ten Hag
-              </p>
-              <a href="">
-                <p className="text-sm text-[#929292]">Info account</p>
-              </a>
-            </div>
-            <div className="w-1/4 m-auto mr-3 flex flex-row ">
-              <FontAwesomeIcon
-                icon={faThumbTack}
-                className="text-xs/10 text-[#929292] m-auto mr-2 "
-              ></FontAwesomeIcon>
-              <p className=" font-semibold text-[#929292] text-xs/10">
-                00:00AM
-              </p>
+            <div className="flex flex-wrap my-auto mt-2 justify-between w-3/4 ">
+              
+                <div className="">
+                  <p className="text-md font-semibold ">
+                  Eric Ten Hag
+                </p>
+                </div>
+
+              <div className="flex flex-row m-auto mr-3">
+                <FontAwesomeIcon
+                  icon={faThumbTack}
+                  className="text-xs/10 text-[#929292] m-auto mr-2 "
+                ></FontAwesomeIcon>
+                <p className=" font-semibold text-[#929292] text-[10px]">
+                  00:00 AM
+                </p>
+              </div>
+              <div className="mt-1 " >
+                <p className="text-xs text-[#929292]">info account</p>
+              </div>
             </div>
           </button>
           <div className="flex-none w-15 rounded-full p-2">Messages</div>
@@ -143,27 +151,108 @@ function App() {
             className=" flex max-[600px]:justify-between hover:bg-slate-50 active:bg-slate-50 focus:outline-none 
                           focus:ring focus:ring-slate-50 cursor-pointer"
           >
-            <div className="grid place-items-center w-1/6 h-full m-auto max-[600px]:w-1/4">
+            <div className="grid place-items-center w-1/6 h-full  m-2 max-[600px]:w-1/4">
               <img
                 src={profilePictureDefault}
                 className=" rounded-full w-full h-full "
                 alt="profile"
               />
             </div>
-            <div className="w-2/3 m-auto p-auto pl-3 py-4 max-[500px]:hidden text-left ">
-              <p className="text-lg font-semibold max[740]:text-xl">
-                Eric Ten Hag
-              </p>
-              <a href="">
-                <p className="text-sm text-[#929292]">Info account</p>
-              </a>
-            </div>
-            <div className="w-1/5 m-auto mr-3 ">
-              <p className=" w-full font-semibold text-[#929292] text-xs">
-                00:00 AM
-              </p>
-              <div className="grid place-items-center w-5 h-5 m-2 ml-auto mr-0 rounded-full bg-red-600">
+            <div className="flex flex-wrap my-auto mt-2 justify-between w-3/4 ">
+              
+                <div className="">
+                  <p className="text-md font-semibold ">
+                  Eric Ten Hag
+                </p>
+                </div>
+
+              <div className="flex flex-row m-auto mr-3">
+                <FontAwesomeIcon
+                  icon={faThumbTack}
+                  className="text-xs/10 text-[#929292] m-auto mr-2 "
+                ></FontAwesomeIcon>
+                <p className=" font-semibold text-[#929292] text-[10px]">
+                  00:00 AM
+                </p>
+              </div>
+              <div className="mt-1 flex justify-between w-full mr-2 my-auto  " >
+                <p className="text-xs text-[#929292]">info account</p>
+                <div className="grid place-items-center w-4 h-4 m-2 my-auto mr-2 rounded-full bg-red-600">
                 <span className="text-center text-xs text-white">1</span>
+              </div>
+              </div>
+            </div>
+          </button>
+              
+          <button
+            className=" flex max-[600px]:justify-between hover:bg-slate-50 active:bg-slate-50 focus:outline-none 
+                          focus:ring focus:ring-slate-50 cursor-pointer"
+          >
+            <div className="grid place-items-center w-1/6 h-full  m-2 max-[600px]:w-1/4">
+              <img
+                src={profilePictureDefault}
+                className=" rounded-full w-full h-full "
+                alt="profile"
+              />
+            </div>
+            <div className="flex flex-wrap my-auto mt-2 justify-between w-3/4 ">
+              
+                <div className="">
+                  <p className="text-md font-semibold ">
+                  Eric Ten Hag
+                </p>
+                </div>
+
+              <div className="flex flex-row m-auto mr-3">
+                <FontAwesomeIcon
+                  icon={faThumbTack}
+                  className="text-xs/10 text-[#929292] m-auto mr-2 "
+                ></FontAwesomeIcon>
+                <p className=" font-semibold text-[#929292] text-[10px]">
+                  00:00 AM
+                </p>
+              </div>
+              <div className="mt-1 flex justify-between w-full mr-2 my-auto  " >
+                <p className="text-xs text-[#929292]">info account</p>
+                <div className="grid place-items-center w-4 h-4 m-2 my-auto mr-2 rounded-full bg-red-600">
+                <span className="text-center text-xs text-white">1</span>
+              </div>
+              </div>
+            </div>
+          </button>
+          <button
+            className=" flex max-[600px]:justify-between hover:bg-slate-50 active:bg-slate-50 focus:outline-none 
+                          focus:ring focus:ring-slate-50 cursor-pointer"
+          >
+            <div className="grid place-items-center w-1/6 h-full  m-2 max-[600px]:w-1/4">
+              <img
+                src={profilePictureDefault}
+                className=" rounded-full w-full h-full "
+                alt="profile"
+              />
+            </div>
+            <div className="flex flex-wrap my-auto mt-2 justify-between w-3/4 ">
+              
+                <div className="">
+                  <p className="text-md font-semibold ">
+                  Eric Ten Hag
+                </p>
+                </div>
+
+              <div className="flex flex-row m-auto mr-3">
+                <FontAwesomeIcon
+                  icon={faThumbTack}
+                  className="text-xs/10 text-[#929292] m-auto mr-2 "
+                ></FontAwesomeIcon>
+                <p className=" font-semibold text-[#929292] text-[10px]">
+                  00:00 AM
+                </p>
+              </div>
+              <div className="mt-1 flex justify-between w-full mr-2 my-auto  " >
+                <p className="text-xs text-[#929292]">info account</p>
+                <div className="grid place-items-center w-4 h-4 m-2 my-auto mr-2 rounded-full bg-red-600">
+                <span className="text-center text-xs text-white">1</span>
+              </div>
               </div>
             </div>
           </button>
@@ -172,78 +261,76 @@ function App() {
             className=" flex max-[600px]:justify-between hover:bg-slate-50 active:bg-slate-50 focus:outline-none 
                           focus:ring focus:ring-slate-50 cursor-pointer"
           >
-            <div className="grid place-items-center w-1/6 h-full m-auto max-[600px]:w-1/4">
+            <div className="grid place-items-center w-1/6 h-full  m-2 max-[600px]:w-1/4">
               <img
                 src={profilePictureDefault}
                 className=" rounded-full w-full h-full "
                 alt="profile"
               />
             </div>
-            <div className="w-2/3 m-auto p-auto pl-3 py-4 max-[500px]:hidden text-left ">
-              <p className="text-lg font-semibold max[740]:text-xl">
-                Eric Ten Hag
-              </p>
-              <a href="">
-                <p className="text-sm text-[#929292]">Info account</p>
-              </a>
-            </div>
-            <div className="w-1/5 m-auto mr-3 ">
-              <p className=" w-full font-semibold text-[#929292] text-xs">
-                00:00 AM
-              </p>
-            </div>
-          </button>
+            <div className="flex flex-wrap my-auto mt-2 justify-between w-3/4 ">
+              
+                <div className="">
+                  <p className="text-md font-semibold ">
+                  Eric Ten Hag
+                </p>
+                </div>
 
-          <button
-            className=" flex max-[600px]:justify-between hover:bg-slate-50 active:bg-slate-50 focus:outline-none 
-                          focus:ring focus:ring-slate-50 cursor-pointer"
-          >
-            <div className="grid place-items-center w-1/6 h-full m-auto max-[600px]:w-1/4">
-              <img
-                src={profilePictureDefault}
-                className=" rounded-full w-full h-full "
-                alt="profile"
-              />
-            </div>
-            <div className="w-2/3 m-auto p-auto pl-3 py-4 max-[500px]:hidden text-left ">
-              <p className="text-lg font-semibold max[740]:text-xl">
-                Eric Ten Hag
-              </p>
-              <a href="">
-                <p className="text-sm text-[#929292]">Info account</p>
-              </a>
-            </div>
-            <div className="w-1/5 m-auto mr-3 ">
-              <p className=" w-full font-semibold text-[#929292] text-xs">
-                00:00 AM
-              </p>
+              <div className="flex flex-row m-auto mr-3">
+                <FontAwesomeIcon
+                  icon={faThumbTack}
+                  className="text-xs/10 text-[#929292] m-auto mr-2 "
+                ></FontAwesomeIcon>
+                <p className=" font-semibold text-[#929292] text-[10px]">
+                  00:00 AM
+                </p>
+              </div>
+              <div className="mt-1 flex justify-between w-full mr-2 my-auto  " >
+                <p className="text-xs text-[#929292]">info account</p>
+                <div className="grid place-items-center w-4 h-4 m-2 my-auto mr-2 rounded-full bg-red-600">
+                <span className="text-center text-xs text-white">1</span>
+              </div>
+              </div>
             </div>
           </button>
           <button
             className=" flex max-[600px]:justify-between hover:bg-slate-50 active:bg-slate-50 focus:outline-none 
                           focus:ring focus:ring-slate-50 cursor-pointer"
           >
-            <div className="grid place-items-center w-1/6 h-full m-auto max-[600px]:w-1/4">
+            <div className="grid place-items-center w-1/6 h-full  m-2 max-[600px]:w-1/4">
               <img
                 src={profilePictureDefault}
                 className=" rounded-full w-full h-full "
                 alt="profile"
               />
             </div>
-            <div className="w-2/3 m-auto p-auto pl-3 py-4 max-[500px]:hidden text-left ">
-              <p className="text-lg font-semibold max[740]:text-xl">
-                Eric Ten Hag
-              </p>
-              <a href="">
-                <p className="text-sm text-[#929292]">Info account</p>
-              </a>
+            <div className="flex flex-wrap my-auto mt-2 justify-between w-3/4 ">
+              
+                <div className="">
+                  <p className="text-md font-semibold ">
+                  Eric Ten Hag
+                </p>
+                </div>
+
+              <div className="flex flex-row m-auto mr-3">
+                <FontAwesomeIcon
+                  icon={faThumbTack}
+                  className="text-xs/10 text-[#929292] m-auto mr-2 "
+                ></FontAwesomeIcon>
+                <p className=" font-semibold text-[#929292] text-[10px]">
+                  00:00 AM
+                </p>
+              </div>
+              <div className="mt-1 flex justify-between w-full mr-2 my-auto  " >
+                <p className="text-xs text-[#929292]">info account</p>
+                <div className="grid place-items-center w-4 h-4 m-2 my-auto mr-2 rounded-full bg-red-600">
+                <span className="text-center text-xs text-white">1</span>
+              </div>
+              </div>
             </div>
-            <div className="w-1/5 m-auto mr-3 ">
-              <p className=" w-full font-semibold text-[#929292] text-xs">
-                00:00 AM
-              </p>
-            </div>
-          </button>
+          </button>  
+
+         
         </div>
       </div>
       <div className=" col-span-3 flex flex-col justify-between bg-[#fcfdff] rounded-2xl z-999 ">
@@ -275,12 +362,10 @@ function App() {
             </button>
           </div>
         </div>
-        <div className="w-auto bg-gray-800/5  border border-slate-400 overflow-y-auto">
-          <nav className="grid place-items-center w-full z-999 ">
-            <div className=" bg-slate-40 mt-3 rounded-full shadow-black shadow-sm">
-              <p className="p-2 text-xs font-semibold text-[rgb(0,0,0)]">
-                Today
-              </p>
+        <div className="w-auto bg-slate-100 border border-slate-200 overflow-y-auto">
+          <nav className="grid place-items-center w-full z-999">
+            <div className=" mt-3 rounded-full">
+              <p className="p-2 text-xs font-semibold text-[#707070]">Today</p>
             </div>
           </nav>
           <div className=" rounded-xl p-3 m-3 mr-auto">
@@ -293,27 +378,21 @@ function App() {
               <p className=" mx-3 text-md font-semibold">Faical Babtayen</p>
               <FontAwesomeIcon
                 icon={faCircle}
-                className="text-black text-xs my-auto ml-0"
+                className="text-black text-[5px] my-auto ml-0"
               ></FontAwesomeIcon>
               <p className="ml-3 m-auto font-semibold text-[#929292] text-xs">
                 00:00 AM
               </p>
             </div>
 
-            <div className="max-w-2xl ml-7 flex">
-              <p className="font-xs font-sans  bg-slate-50 border border-slate-300 rounded-xl p-3">
+            <div className="max-w-lg ml-7 flex">
+              <p className="font-xs font-sans  bg-slate-50 border border-slate-300/50 rounded-xl p-3">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-                sit amet lorem iaculis, pulvinar quam nec, consectetur ex. Morbi
-                pharetra, nibh at tincidunt venenatis, nunc sem congue orci, a
-                sagittis ligula nisi id sem. Nullam tincidunt mauris id ante
-                placerat egestas. Cras eget turpis quis mi blandit mollis.
-                Vestibulum semper lectus id sem posuere, quis semper mauris
-                tincidunt. Sed et ultricies leo. Maecenas tristique odio massa,
-                sit amet placerat sem ultricies sit amet. In ut enim nisl.
+                sit amet lorem iaculis, pulvinar quam nec, consectetur ex.
               </p>
               <FontAwesomeIcon
                 icon={faEllipsisVertical}
-                className="text-[#] text-xl m-auto ml-2"
+                className="text-[#929292] text-xl m-auto ml-2"
               ></FontAwesomeIcon>
             </div>
             <div className=" rounded-xl p-3 m-3 mr-auto">
@@ -321,7 +400,7 @@ function App() {
                 <p className=" mx-3 text-md font-semibold">You</p>
                 <FontAwesomeIcon
                   icon={faCircle}
-                  className="text-black text-xs mr-0 my-auto "
+                  className="text-black text-[5px] mr-0 my-auto "
                 ></FontAwesomeIcon>
                 <p className=" m-auto mx-3 font-semibold text-[#929292] text-xs">
                   00:00 AM
@@ -332,7 +411,7 @@ function App() {
                 ></FontAwesomeIcon>
               </div>
 
-              <div className="max-w-2xl rounded-xl p-3 ml-auto flex">
+              <div className="max-w-md rounded-xl p-3 ml-auto flex">
                 <FontAwesomeIcon
                   icon={faEllipsisVertical}
                   className="text-[#3b3b3bbb] text-xl m-auto mr-2"
@@ -352,7 +431,7 @@ function App() {
               <img
                 src={wallpaper}
                 alt="wallpaper"
-                className="rounded-xl ml-auto mr-4 border-4 w-1/2 "
+                className="rounded-xl ml-auto mr-4 border-4 w-[400px] "
               />
             </div>
           </div>
