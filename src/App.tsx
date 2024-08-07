@@ -15,7 +15,11 @@ function App() {
       <SideBar/>
       
       <div className="w-full col-span-3 flex flex-col bg-[#fcfdff] rounded-2xl z-999 ">
-       <TopBar/>
+       <TopBar user={{
+        username: "Faical",
+        id: "zCHHJpp3Uzqflv0hSqgA",
+        avatarUrl: "",
+       }}/>
         <div
           className="w-ful h-full overflow-y-auto bg-slate-100 border border-slate-200"
           style={{

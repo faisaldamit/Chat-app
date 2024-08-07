@@ -1,7 +1,8 @@
 export interface IUser {
     id: string;
-    name: string;
+    username: string;
     avatarUrl: string;
+
 }
 
 export interface IMessage {
@@ -9,5 +10,5 @@ export interface IMessage {
     text: string;
     sender: string;
     receiver: string;
-    timestamp: number;
+    timestamp: string;
 }
