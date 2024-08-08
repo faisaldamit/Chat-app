@@ -4,7 +4,7 @@ import {
   faPaperPlane,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
+  
 function BottomBar() {
   return (
     <div className="flex justify-start py-2 pl-4 border border-t-slate-200 rounded-b-2xl bg-[#ffffff]">
@@ -19,10 +19,12 @@ function BottomBar() {
             <FontAwesomeIcon icon={faPaperclip} />
           </button>
         </div>
-        <input
-          type="text"
+        <textarea
           placeholder="Type a message"
-          className="w-full text-slate-900 bg-[#f7f7f7]  rounded-r-full p-2 pl-auto flex-grow focus:outline-none resize-none overflow-hidden min-h-[44px] max-h-[200px]"
+          cols={10}
+          rows={5}
+          className="w-full text-slate-900 bg-[#f7f7f7]  rounded-r-full p-2 pl-auto flex-grow focus:outline-none resize-y "
+          
         />
       </div>
       <div className="grid place-items-center">

@@ -12,7 +12,7 @@ function App() {
   
   return (
     <div className="bg-[#faf9fe] flex gap-5 w-full h-screen p-2">
-      <SideBar/>
+      <SideBar />
       
       <div className="w-full col-span-3 flex flex-col bg-[#fcfdff] rounded-2xl z-999 ">
        <TopBar user={{

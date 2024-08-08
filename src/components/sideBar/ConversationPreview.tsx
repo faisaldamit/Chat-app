@@ -30,9 +30,9 @@ function ConservationPreview ( {user ,message}:Props ) {
         </div>
         <div className="mt-1 flex justify-between w-full mr-2 my-auto  ">
           <p className="text-xs text-[#929292]">info account</p>
-          <div className="grid place-items-center w-4 h-4 m-2 my-auto mr-2 rounded-full bg-red-600">
+          {/* <div className="grid place-items-center w-4 h-4 m-2 my-auto mr-2 rounded-full bg-red-600">
             <span className="text-center text-xs text-white">1</span>
-          </div>
+          </div> */}
         </div>
       </div>
     </button>
